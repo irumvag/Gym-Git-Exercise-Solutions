@@ -16,5 +16,15 @@ git commit -m "First commit"
 git branch -M main
 git remote add origin https://github.com/irumvag/Gym-Git-Exercise-Solutions.git
 git push -u origin main
+git branch dev
+git checkout dev
+git checkout -b test
+git checkout dev
+git branch -d test
+
+```
+### - Exercise 2
+
+```bash
 
 ```
