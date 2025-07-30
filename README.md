@@ -26,5 +26,7 @@ git branch -d test
 ### - Exercise 2
 
 ```bash
-
+git stash -u
+git stash pop --index 1
+git stash pop --index 0
 ```
