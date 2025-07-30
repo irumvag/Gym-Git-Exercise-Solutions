@@ -29,4 +29,6 @@ git branch -d test
 git stash -u
 git stash pop --index 1
 git stash pop --index 0
+git add -A
+git commit -m "Bundle 1 Exercise 2"
 ```
