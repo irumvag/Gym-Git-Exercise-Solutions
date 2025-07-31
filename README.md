@@ -72,5 +72,26 @@ git status
 ```
 ### Exercise 2
 ```bash
-
+git status
+git checkout main
+git  checkout -b ft/service-redesign
+git add .\services.html
+git commit -m "The service html changed"
+git push --set-upstream origin ft/service-redesign
+git checkout main
+git checkout main
+git add .\services.html
+git commit -m "The service html changed on main"
+git push origin main
+git checkout ft/servise-redesign
+git checkout ft/service-redesign
+git diff
+git status
+git diff --help
+git log
+clear
+git diff main
+git merge main
+git status
+git status
 ```
