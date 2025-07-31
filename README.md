@@ -120,4 +120,17 @@ git status
  git checkout  ft/contact-page
  git cherry-pick 6476603
  git status
+ add .\contact.html
+ git commit -m "Contact us page added"
+ git checkout ft/contact-page
+ git add .\contact.html
+ git commit -m "Contact us page added"
+ git push --set-upstream origin ft/contact-page
+ git checkout -b ft/faq-page
+ git add .\faq.html
+ git commit -m "faq html created!"
+ git push origin ft/faq-page
+ git log --oneline
+ git revert 3bb2955
+ git push origin ft/faq-page
 ```
