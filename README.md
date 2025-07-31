@@ -136,7 +136,7 @@ git status
 ```
 ### Exercise 2
 ```bash 
-git checkout ft/faq-page
+  git checkout ft/faq-page
   git checkout -b ft/home-page-redesign
   git checkout main
   git add -A
@@ -150,4 +150,18 @@ git checkout ft/faq-page
   git add -A
   git commit -m "Homepage redesign"
   git push --set-upstream origin ft/home-page-redesign
+```
+## Bundle 4
+### Exercise 1
+```bash
+ git checkout main
+ git remote add git-copy https://github.com/irumvag/Git-Exercises... 
+ git add .
+ git commit -m "home changed"
+ git push origin main
+ git push git-copy main
+```
+### Exercise 2
+```bash
+
 ```
