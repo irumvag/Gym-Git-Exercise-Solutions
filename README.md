@@ -55,7 +55,7 @@ git push origin --delete test
 
 ```
 ## Bundle 2
-### Exercise 1
+### - Exercise 1
 ```bash
 git branch ft/bundle-2
 git branch
@@ -70,7 +70,54 @@ git push --set-upstream origin ft/bundle-2
 git push
 git status
 ```
-### Exercise 2
+### -Exercise 2
 ```bash
-
+ git checkout main
+ git add .\services.html
+ git commit -m "The service html changed"
+ git push origin main
+ git push origin main
+ git push origin main
+ git push -o origin main
+ git push -o origin main
+ git push -o origin main
+ git push origin main
+ git pull
+ git push origin main
+ git pull
+ git status
+ git add -A
+ git commit -m "The service html changed"
+ git push origin main
+ gh help
+ gh --help
+ git gh
+ clear
+ git add -A
+ git commit -m "The service html changed"
+ git push origin main
+```
+## Bundle 3
+### - Exercise 1
+```bash
+ git add .
+ git commit -m "Bundle 2 Exercise 2 done"
+ git push origin main
+ git checkout -b ft/team-page
+ git branch
+ git stats
+ git status
+ git add .\team.html
+ git commit -m "The team html file added"
+ git push origin ft/team-page
+ git checkout main
+ git status
+ git checkout -b ft/contact-page
+ git checkout ft/team-page
+ git status
+ git log --oneline
+ git checkout -b ft/contact-page
+ git checkout  ft/contact-page
+ git cherry-pick 6476603
+ git status
 ```
