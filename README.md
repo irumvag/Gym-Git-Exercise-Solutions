@@ -54,3 +54,23 @@ git push origin --delete test
   giy reset --hard 38fdd8d
 
 ```
+## Bundle 2
+### Exercise 1
+```bash
+git branch ft/bundle-2
+git branch
+echo '!'>services.html
+git commit -m "service file added"
+git add services.html
+git commit -m "service file added"
+git push origin ft/bundle-2
+git checkout ft/bundle-2
+git status
+git push --set-upstream origin ft/bundle-2
+git push
+git status
+```
+### Exercise 2
+```bash
+
+```
