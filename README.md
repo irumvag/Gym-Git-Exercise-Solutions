@@ -134,3 +134,20 @@ git status
  git revert 3bb2955
  git push origin ft/faq-page
 ```
+### Exercise 2
+```bash 
+git checkout ft/faq-page
+  git checkout -b ft/home-page-redesign
+  git checkout main
+  git add -A
+  git commit -m "Home page redesigned"
+  git push origin main
+  git pull
+  git push origin main
+  git checkout ft/home-page-redesign
+  git status
+  git rebase origin/main
+  git add -A
+  git commit -m "Homepage redesign"
+  git push --set-upstream origin ft/home-page-redesign
+```
