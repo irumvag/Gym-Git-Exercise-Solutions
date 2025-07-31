@@ -21,48 +21,36 @@ git checkout dev
 git checkout -b test
 git checkout dev
 git branch -d test
+git push origin --delete test
 
 ```
 ### - Exercise 2
 
 ```bash
- echo !>home.html
-  26 echo .>home.html
-  27 echo '.'>home.html
-  28 git stash
-  29 git stash pop
-  30 git stash -u
-  31 git stash list
-  32 git stash apply
-  33 git stash clear
-  34 git stash list
-  35 git stash -u
-  36 echo .>about.html
-  37 echo '.'>about.html
-  38 git stash -u
-  39 echo '!'>team.html
-  40 git stash -u
-  41 git stash show
-  42 git stash list
-  43 git stash pop stash@{1}
-  44 git stash pop
-  45 git stash pop
-  46 git stash -u
-  47 git stash pop
-  48 git stash pop
-  49 git stash pop
-  50 git stash pop
-  51 git stash list
-  52 git stash pop stash@{1}
-  53 git stash pop --index 1
-  54 git stash pop --index 0
-  55 git stash list
-  56 git stash pop --index 2
-  57 git add -A
-  58 git commit -m "Bundle 1 Exercise 2"
-  59 git stash apply
-  60 git add -A
-  61 git commit -m "Bundle 1 Exercise 2"
-  62 git push origin -o main
+  echo '.'>home.html
+  git stash -u
+  git stash list
+  git stash -u
+  echo '.'>about.html
+  git stash -u
+  echo '!'>team.html
+  git stash -u
+  git stash show
+  git stash list
+  git stash pop
+  git stash pop
+  git stash list
+  git stash pop stash@{1}
+  git stash pop --index 1
+  git stash list
+  git stash pop --index 2
+  git add -A
+  git commit -m "Bundle 1 Exercise 2"
+  git stash apply
+  git add -A
+  git commit -m "Bundle 1 Exercise 2"
+  git push origin -o main
+  git log --oneline
+  giy reset --hard 38fdd8d
 
 ```
