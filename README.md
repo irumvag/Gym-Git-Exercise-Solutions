@@ -182,3 +182,10 @@ git status
   git merge ft/squashing
   git status
 ```
+## Bundle 5
+### Exercise 1
+```bash
+  git add index.html
+  git commit -m "Index html"
+  git push origin main 
+```
