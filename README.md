@@ -163,5 +163,22 @@ git status
 ```
 ### - Exercise 2
 ```bash
-
+  git status
+  git add .\footer.html
+  git commit -m "Footer page added succesful"
+  git add -A
+  git status
+  git commit -m "The header div added"
+  git push --set-upstream origin ft/footer
+  git checkout main
+  git checkout -b ft/squashing
+  git status
+  git log
+  git merge --squash ft/footer
+  git status
+  git commit -m "footer changes squashing"
+  git push --set-upstream origin ft/squashing
+  git checkout main
+  git merge ft/squashing
+  git status
 ```
